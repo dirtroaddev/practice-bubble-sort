@@ -12,11 +12,12 @@ let i = 0;
       if(arr[i] > arr[i + 1]) {
         [[arr[i]], [arr[i + 1]]] = [[arr[i + 1]], [arr[i]]]
         swapped = true;
+        console.log(arr.join(","));
       }
     }
       
       // Do not move this console.log
-      console.log(arr.join(","));
+      // console.log(arr.join(","));
     }while(swapped)
       
 
